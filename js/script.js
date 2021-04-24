@@ -3,7 +3,7 @@
 const guesses = document.querySelector(".guessed-letters");
 
 //the button with the text "Guess!" in it.
-const button = document.querySelector(".guess");
+const guessButton = document.querySelector(".guess");
 
 //the text input where the player will guess a letter
 const inputGuess = document.querySelector(".letter");
@@ -33,3 +33,9 @@ const progress = function () {
 }
 
 progress(word);
+
+
+guessButton.addEventListener("click", function (e) {
+    e.preventDefault();
+
+})
