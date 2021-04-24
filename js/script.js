@@ -27,3 +27,9 @@ const playAgain = document.querySelector(".play-again");
 const word = "magnolia";
 
 console.log(word);
+
+const progress = function () {
+    wordInProgress.innerHTML = "●";
+}
+
+progress(word);
